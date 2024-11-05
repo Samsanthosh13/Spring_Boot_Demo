@@ -42,6 +42,6 @@ jobs:
     - name: Build and push Docker image
       run: |
         # Build the Docker image (you can add tags dynamically or statically)
-        docker build -t DOCKER_USERNAME/my-app:latest .
-        docker push DOCKER_USERNAME/my-app:latest
+        docker build -t DOCKERHUB_USERNAME/my-app:latest .
+        docker push DOCKERHUB_USERNAME/my-app:latest
 
